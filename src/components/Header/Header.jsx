@@ -1,12 +1,12 @@
-import './Header.css'
+import './Header.css';
 
 function Header() {
 
-    return (
-        <>
-            <p className='header'>Поиск</p>
-        </>
-    );
+	return (
+		<>
+			<h1 className='header'>Поиск</h1>
+		</>
+	);
 }
 
 export default Header;
